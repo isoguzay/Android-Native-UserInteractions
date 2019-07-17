@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ToastLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_orange_dark"
+    tools:context=".toastmessagesample.ToastMessageSample" >
+
+    <Button
+        android:id="@+id/button_showDefaultToast"
+        android:layout_width="265dp"
+        android:layout_height="68dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="@android:color/holo_orange_light"
+        android:text="@string/buttonToastDefault"
+        android:textColor="@android:color/background_light"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.19" />
+
+    <Button
+        android:id="@+id/button_showSpecificToast"
+        android:layout_width="265dp"
+        android:layout_height="68dp"
+        android:layout_marginTop="96dp"
+        android:background="@android:color/holo_orange_light"
+        android:text="@string/buttonToastSpecific"
+        android:textColor="@android:color/background_light"
+        app:layout_constraintEnd_toEndOf="@+id/button_showDefaultToast"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/button_showDefaultToast"
+        app:layout_constraintTop_toBottomOf="@+id/button_showDefaultToast" />
+
+    <Button
+        android:id="@+id/button_backToast"
+        android:layout_width="265dp"
+        android:layout_height="68dp"
+        android:layout_marginTop="116dp"
+        android:layout_marginBottom="8dp"
+        android:background="@android:color/holo_orange_light"
+        android:text="@string/buttonBackFromToast"
+        android:textColor="@android:color/background_light"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/button_showSpecificToast"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/button_showSpecificToast"
+        app:layout_constraintTop_toBottomOf="@+id/button_showSpecificToast"
+        app:layout_constraintVertical_bias="0.185" />
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Android Native User Interactions</string>
+    <string name="title_activity_toast_message_sample">Toast Message Sample</string>
+
+    <string name="buttonToastDefault"> Show Message Toast Default</string>
+    <string name="buttonToastSpecific"> Show Message Toast Specific</string>
+    <string name="buttonToastSample"> Toast Samples </string>
+    <string name="buttonSnackBarSample"> SnackBar Samples </string>
+    <string name="buttonBackFromToast"> Back to Samples </string>
+
+
+
+    <string name="specificToastMessage"> Howdy, I am a specific Toast</string>
+</resources>
