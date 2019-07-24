@@ -22,7 +22,7 @@ public class ToastMessageSample extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_toast_message_sample);
-        initiliazeComponents();
+        initializeComponents();
 
         buttonDefaultClick();
         buttonSpecificClick();
@@ -71,7 +71,7 @@ public class ToastMessageSample extends AppCompatActivity {
         });
     }
 
-    public void initiliazeComponents(){
+    public void initializeComponents(){
         buttonDefaultToast = findViewById(R.id.button_showDefaultToast);
         buttonSpecificToast = findViewById(R.id.button_showSpecificToast);
         buttonBackMenu = findViewById(R.id.button_backToast);

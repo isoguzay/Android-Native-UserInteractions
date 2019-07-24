@@ -9,6 +9,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme.NoActionBar">
+        <activity android:name=".alertviewsample.AlertViewActivity"
+            android:label="@string/title_activity_alert_view_sample"
+            android:theme="@style/AppTheme.NoActionBar" ></activity>
+        <activity
+            android:name=".popupmenusample.PopupMenuActivity"
+            android:label="@string/title_activity_popup_menu_sample"
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".mainactivity.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -19,8 +26,7 @@
         <activity
             android:name=".toastmessagesample.ToastMessageSample"
             android:label="@string/title_activity_toast_message_sample"
-            android:theme="@style/AppTheme.NoActionBar">
-        </activity>
+            android:theme="@style/AppTheme.NoActionBar" />
     </application>
 
 </manifest>

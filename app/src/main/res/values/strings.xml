@@ -1,13 +1,27 @@
 <resources>
     <string name="app_name">Android Native User Interactions</string>
     <string name="title_activity_toast_message_sample">Toast Message Sample</string>
+    <string name="title_activity_popup_menu_sample">Popup Menu Sample</string>
+    <string name="title_activity_alert_view_sample">Alert View Sample</string>
+
 
     <string name="buttonToastDefault"> Show Message Toast Default</string>
     <string name="buttonToastSpecific"> Show Message Toast Specific</string>
+
     <string name="buttonToastSample"> Toast Samples </string>
     <string name="buttonSnackBarSample"> SnackBar Samples </string>
-    <string name="buttonBackFromToast"> Back to Samples </string>
+    <string name="buttonPopupSample">Popup Menu Samples</string>
+    <string name="buttonAlertViewSample">Alert View Samples</string>
 
+    <string name="buttonBackFromToast"> Back to Samples </string>
+    <string name="buttonBackFromPopup"> Back to Samples </string>
+    <string name="buttonBackFromSnackBar"> Back to Samples </string>
+    <string name="buttonBackFromAlertView"> Back to Samples </string>
+
+    <string name="buttonPopup">Do It</string>
+
+    <string name="buttonAlertNormal"> Normal Alert Dialog </string>
+    <string name="buttonAlertSpecial"> Special Alert Dialog </string>
 
 
     <string name="specificToastMessage"> Howdy, I am a specific Toast</string>
