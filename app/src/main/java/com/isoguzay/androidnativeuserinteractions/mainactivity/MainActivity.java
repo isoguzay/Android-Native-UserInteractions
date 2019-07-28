@@ -9,6 +9,7 @@ import android.widget.Button;
 import com.isoguzay.androidnativeuserinteractions.R;
 import com.isoguzay.androidnativeuserinteractions.alertviewsample.AlertViewActivity;
 import com.isoguzay.androidnativeuserinteractions.popupmenusample.PopupMenuActivity;
+import com.isoguzay.androidnativeuserinteractions.snackbarsample.SnackbarActivity;
 import com.isoguzay.androidnativeuserinteractions.toastmessagesample.ToastMessageSample;
 
 public class MainActivity extends AppCompatActivity {
@@ -24,6 +25,7 @@ public class MainActivity extends AppCompatActivity {
         buttonToastClick();
         buttonPopupClick();
         buttonAlertViewClick();
+        buttonSnackbarClick();
     }
 
     public void buttonPopupClick() {
@@ -52,6 +54,16 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Intent alertActivity = new Intent(getApplicationContext(), AlertViewActivity.class);
                 startActivity(alertActivity);
+            }
+        });
+    }
+
+    public void buttonSnackbarClick(){
+        buttonSnackbar.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent snackbarActivity = new Intent(getApplicationContext(), SnackbarActivity.class);
+                startActivity(snackbarActivity);
             }
         });
     }

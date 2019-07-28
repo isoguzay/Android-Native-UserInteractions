@@ -18,11 +18,13 @@
     <string name="buttonBackFromSnackBar"> Back to Samples </string>
     <string name="buttonBackFromAlertView"> Back to Samples </string>
 
+
     <string name="buttonPopup">Do It</string>
 
     <string name="buttonAlertNormal"> Normal Alert Dialog </string>
     <string name="buttonAlertSpecial"> Special Alert Dialog </string>
-
+    <string name="buttonSnackBarFeedBack"> FeedBack From SnackBar </string>
+    <string name="buttonSnackBarSpecific"> Specific SnackBar </string>
 
     <string name="specificToastMessage"> Howdy, I am a specific Toast</string>
 </resources>

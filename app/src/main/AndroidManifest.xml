@@ -9,9 +9,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme.NoActionBar">
-        <activity android:name=".alertviewsample.AlertViewActivity"
+        <activity android:name=".snackbarsample.SnackbarActivity"></activity>
+        <activity
+            android:name=".alertviewsample.AlertViewActivity"
             android:label="@string/title_activity_alert_view_sample"
-            android:theme="@style/AppTheme.NoActionBar" ></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".popupmenusample.PopupMenuActivity"
             android:label="@string/title_activity_popup_menu_sample"
